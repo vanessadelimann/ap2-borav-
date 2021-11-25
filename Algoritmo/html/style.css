@@ -1,0 +1,117 @@
+* {
+    box-sizing:border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+body{
+    background-image: url(imagens/2.JPG);
+    background-repeat: no-repeat;
+
+}
+
+#logo {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+#top {
+    background-color: #c8eef1;
+    padding-left: 40px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c8eef1;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+#navegacao {
+    margin-top: 15px;
+    margin-right: 20px;
+    float: right;
+    background-color:#F8F8FF;
+    padding-top: 0%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+#navegacao a:hover {
+    background-color: #53828c;
+
+}
+
+.btn-hover {
+        min-height: 45px; 
+        width: 200px; 
+        border-radius: 30px; 
+        border: 0px none white; 
+        background-color: rgb(149, 165, 166); 
+        font-family: "Lucida Sans", cursive; 
+        color: rgb(255, 255, 255); 
+        font-size: 24px;
+        cursor:pointer;
+}.btn-hover:hover{
+    background-color:#c8eef1 !important;
+    color:white !important;
+    transition-duration:0.3s;
+}
+
+#boxmenu{
+    margin-top: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    
+}
+
+.geral {
+    min-height:100%;
+    position:relative;
+    width:800px;
+}
+
+.footer {
+    position:absolute;
+    bottom:10px;
+    width:100%;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.content {overflow:hidden;}
+.aside {width:200px;}
+.fleft {float:left;}
+.fright {float:right;}
